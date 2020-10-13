@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap');
+
+* {
+    
+    font-family: 'Piazzolla', serif;
+}
+
+body {
+    background-color: #121212;
+}
+
+div {
+    display: block;
+    padding: 10px;
+}
+
+
+.card{
+    margin: 50px auto;
+    width: 50%;
+    max-width: 470px;
+    height: auto;
+    background-color: #202020;
+
+}
+
+.layout {
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    top: 50%;
+    padding: 28px 60px 10px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    background: url(../photo/wolflogoBasic.png) 50%/contain no-repeat; 
+    /*background-color: black; */
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: 0;
+    /* -webkit-tap-highlight-color: transparent;
+    z-index: -1;
+    background-color: #202020; */
+    
+}
+
+h6 {
+    display: block;
+    color: #F4F4F4;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+/* h6 .title {
+    
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.email, .password, .username, .confirm-password{
+    display: inline-flex;
+    font-size: 14px;
+    background-color: #2B2B2B;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-bottom: 10px; */
+    border: none;
+    padding: 0;
+    border-radius: 3px;
+    margin-top: 15px;
+    /* margin-bottom: 0; */
+    
+}
+
+input {
+    font: inherit;
+    color: #F4F4F4;
+    background: none;
+    width: 100%;
+    display: block;
+    height: 50px;
+    box-sizing: content-box;
+    padding-top: 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: start;
+    border: 1px solid #2B2B2B;
+    /* box-sizing: content-box; */
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 17px;
+    border-color: #2B2B2B;
+    border-radius: 3px;
+    
+    
+}
+
+input:focus{
+    outline: none;
+    /* background: #2B2B2B; */
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  /* background-color: #2B2B2B; */
+  /* -webkit-text-fill-color: #F4F4F4;
+  -webkit-box-shadow: 0 0 0 1000px #2B2B2B inset !important;
+  box-shadow: none;
+  border: none; */
+  /* -webkit-div-shadow: 0 0 0 30px red inset !important; */
+  /* -webkit-text-fill-color: none; */
+  /* transition: background-color 5000s ease-in-out 0s; */
+
+  border: 1px solid #2B2B2B;
+  -webkit-text-fill-color: #F4F4F4;
+  /* -webkit-box-shadow: 0 0 0px 1000px #2B2B2B , 0 0 5px 1px #000; */
+          box-shadow: 0 0 0px 1000px #2B2B2B inset; /* <- Add this to fix. */  
+  transition: background-color 5000s ease-in-out 0s;
+  border-radius: 3px #2b2b2b;
+}
+
+
+
+.options {
+    display: inline-flex;
+    width: 100%;
+    text-align: start;
+    justify-content: space-between;
+    /* padding-left: 0; */
+    color: rgba(244, 244, 244, 0.5);;
+    margin-top: 15px;
+    padding: 0;
+
+}
+
+.class-style {
+    display: inline-block;
+    margin-left: 0;
+    /* padding-left: 0; */
+    text-align: start;
+    justify-content: space-between;
+    /* float: left; */
+    padding: 0;
+}
+
+.check-box {
+    display: inline-flex;
+    width: 100%;
+    float: left;
+
+}
+
+
+
+input[type="checkbox"] {
+    float: left;
+    width: 20px;
+    height: 20px;
+    /* background: #a2a2a2; */
+   
+}
+
+input[type="checkbox"]:checked ~{
+    background: #a2a2a2;;
+}
+
+p {
+    float: left;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.forgot-password {
+    padding: 0;
+}
+
+
+.forgot-password a {
+    color: rgba(244, 244, 244, 0.5);
+    text-decoration: none;
+    
+}
+
+.log-inmail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* padding-left: 0;
+    padding-right: 0; */
+    padding: 0;
+    margin-top: 15px;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+button {
+    height: 50px;
+    /* background: rgba(0, 0, 0, 0.87); */
+    background: #191919;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 6px 16px;
+    margin-top: 15px;
+    outline: none;
+}
+
+button:hover, button:focus {
+    outline: none;
+}
+
+.privacy {
+    display: block;
+    padding: 0;
+    margin-top: 35px;
+}
+
+.privacy a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.sign-upin-page {
+    display: block;
+    color: rgba(244, 244, 244, 0.5);
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sign-upin-page span{
+    margin-left: 5px;
+}
+
+.sign-upin-page a, p a {
+    text-decoration: none;
+    color: #f4f4f4;
+    margin-left: 7px;
+}
+
+
+/* Forgot-Password Design */
+
+.paragraph {
+    display: flex;
+    margin-top: 15px;
+    color: rgba(244, 244, 244, 0.5);
+    margin-left: 0;
+    padding: 0;
+    margin-right: 0;
+}
+
+.paragraph p {
+    margin-left: 0;
+}
+
+
+
+.title {
+    display: block;
+    text-align: center;
+}
+
+.forgot-form {
+    margin-top: 6px;
+}
+
+/* Sign Up Style */
+
+.card-sign-up {
+        margin: 0px auto;
+        width: 50%;
+        max-width: 470px;
+        height: auto;
+        background-color: #202020;
+}
+
+p.signuperror {
+    display: inline-flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background: #D54841;
+    color: #FFF;
+    border-radius: 3px;
+    height: 50px;
+    padding: 0;
+      
+}
+
+p.signupsuccess {
+    display: inline-flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background: #41d56d;
+    color: #FFF;
+    border-radius: 3px;
+    height: 50px;
+    padding: 0;
+      
+}
+
+
+
+

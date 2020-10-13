@@ -1,0 +1,12 @@
+Before use wolfcodelogin system LESS SECURE APP ACCESS ON
+
+Databases
+    users(idUsers,uidUsers,emailUsers,pwdUsers)
+    pwdreset(pwdResetId,pwdResetEmail,pwdResetSelector,pwdResetToken,pwdResetExpires)
+
+No Front End Validation
+Have Back End Validation    
+
+Password Recovery by
+   Firstly Generate Random Selector and Token and Pass to user
+   Then after that compare the user given selector and Token and Database's Selector and Token

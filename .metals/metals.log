@@ -1,0 +1,8 @@
+2020.10.12 21:10:31 INFO  started: Metals version 0.9.4 in workspace 'C:\xampp\htdocs\learns\loginsystem2' for client vscode.
+2020.10.12 21:10:32 INFO  time: initialize in 1.4s
+2020.10.12 21:10:34 WARN  no build tool detected in workspace 'C:\xampp\htdocs\learns\loginsystem2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.12 21:15:34 INFO  shutting down Metals
+2020.10.13 09:46:10 INFO  started: Metals version 0.9.4 in workspace 'C:\xampp\htdocs\learns\wolfcodelogin' for client vscode.
+2020.10.13 09:46:12 INFO  time: initialize in 2.5s
+2020.10.13 09:46:14 WARN  no build tool detected in workspace 'C:\xampp\htdocs\learns\wolfcodelogin'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.13 17:16:47 INFO  shutting down Metals
